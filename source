@@ -5718,7 +5718,7 @@ function Locate(plr)
 
 				if localRoot and targetRoot then
 					local distance = (localRoot.Position - targetRoot.Position).magnitude
-					local maxDistance = 1500
+					local maxDistance = 10
 
 					if distance <= maxDistance then
 						local BillboardGui = Instance.new("BillboardGui", ESPholder)
